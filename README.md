@@ -1,36 +1,26 @@
 # Next.js X Prisma Workshop
 
 This is a workshop that will teach you how to build a fullstack app using [Next.js](https://nextjs.org) and [Prisma](https://prisma.io).
+>
 Tutorial is [here](https://www.youtube.com/watch?v=aim8Mk-ETK0)
 
 - Next.js: fullstack React framework
 - Prisma: next-generation ORM for Node.js and TypeScript
 
 ## Prerequisites
-
 For this workshop, knowledge of JavaScript and React is strongly recommended. Having some basic understanding of relational databases is helpful but not required. You also don't need to know TypeScript to complete this workshop.
 
 You can check out the following resources:
-
 - [Prisma's Data guide](https://prisma.io/dataguide)
 - [The beginner's guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react)
 
 
 ## App architecture
-
-## Next.js
-
-
-
-## Prisma
+- Next.js
+- Prisma
 
 ## What you'll be building
-
 Throughout this workshop you'll build a feedback app where users can submit feedback.
-
-This is what the final app will look like:
-
-
 
 To follow along run the following commands. 
 
@@ -43,6 +33,18 @@ npm run dev
 
 This will clone the starter branch, install the dependencies and start the development server.
 The app will be running at [http://localhost:3000](http://localhost:3000).
+
+## Problem starting npm run dev
+Follow along with these commands in your terminal.
+
+```bash
+git clone -b starter https://github.com/m-abdelwahab/nextjs-prisma-workshop
+cd nextjs-prisma-workshop
+npm install 
+npm run dev
+```
+After running the above commands, run `npm audit` and then `npm audit --force`
+Then if you are getting an error about the React version, use [this](https://nextjs.org/docs/messages/react-version).
 
 ## Project structure
 
