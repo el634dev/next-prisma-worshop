@@ -1,10 +1,10 @@
 # Next.js X Prisma Workshop
 
 This is a workshop that will teach you how to build a fullstack app using [Next.js](https://nextjs.org) and [Prisma](https://prisma.io).
+Tutorial is [here](https://www.youtube.com/watch?v=aim8Mk-ETK0)
 
 - Next.js: fullstack React framework
 - Prisma: next-generation ORM for Node.js and TypeScript
-
 
 ## Prerequisites
 
